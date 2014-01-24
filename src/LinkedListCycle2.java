@@ -13,6 +13,7 @@ public class LinkedListCycle2 {
 		if (head == null || head.next == null)
 			return null;
 
+
 		ListNode p1 = head;
 		ListNode p2 = head;
 		while (p2.next != null && p2.next.next != null) {
